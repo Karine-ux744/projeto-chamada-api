@@ -11,7 +11,7 @@ async function funcao_piada() {
     console.log('piada');
     console.log(resultados_api.value);
   } catch (error) {
-    console.error('erro!', error.message);
+    console.error('Erro!', error.message);
   }
 }
 funcao_piada();
